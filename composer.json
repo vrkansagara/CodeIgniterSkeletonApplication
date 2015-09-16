@@ -1,0 +1,22 @@
+{
+  "name": "vrkansagara/CodeIgniterSkeletonApplication",
+  "description": "Skeleton Application for CodeIgniter",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "keywords": [
+    "CodeIgniter",
+    "CI"
+  ],
+  "homepage": "http://vrkansagara/projects",
+  "authors": [
+    {
+      "name": "Vallabh Kansagara (VRKANSAGARA)",
+      "email": "vrkansagara@gmail.com"
+    }
+  ],
+  "require": {
+    "codeigniter/framework": "^3.0",
+    "mikey179/vfsStream": "^1.5",
+    "phly/phly-mustache": "^2.0"
+  }
+}
