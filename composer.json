@@ -5,9 +5,11 @@
   "license": "MIT",
   "keywords": [
     "CodeIgniter",
-    "CI"
+    "CI",
+    "PHP",
+    "Framework"
   ],
-  "homepage": "http://vrkansagara/projects",
+  "homepage": "http://vrkansagara.in/page/projects",
   "authors": [
     {
       "name": "Vallabh Kansagara (VRKANSAGARA)",
@@ -18,6 +20,5 @@
     "php": ">=5.5",
     "codeigniter/framework": "^3.0",
     "mikey179/vfsStream": "^1.5",
-    "phly/phly-mustache": "^2.0"
   }
 }
