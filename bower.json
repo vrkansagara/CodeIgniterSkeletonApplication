@@ -1,0 +1,21 @@
+{
+  "name": "moa",
+  "version": "0.5.4",
+  "homepage": "https://github.com/vrkansagara",
+  "authors": [
+    "Vallabh Kansagara <vrkansagara@gmail.com>"
+  ],
+  "directory": "public/",
+  "license": "BSD3-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "admin-lte": "~2.3",
+    "components-font-awesome":"~4.4"
+  }
+}

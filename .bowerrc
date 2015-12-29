@@ -1,0 +1,12 @@
+{
+  "directory": "public/assets/bower/",
+  "analytics": false,
+  "timeout": 120000,
+  "registry": {
+    "search": [
+      "http://localhost",
+      "http://codeigniterskeletonapplication.local/",
+      "https://bower.herokuapp.com"
+    ]
+  }
+}
