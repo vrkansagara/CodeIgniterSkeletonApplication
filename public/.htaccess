@@ -1,14 +1,11 @@
-setEnv CI_ENV development
-#setEnv CI_ENV production
 
+################# Environment Specific Settings. #################
+#setEnv CI_ENV "testing"
+setEnv CI_ENV "development"
+#setEnv CI_ENV "staging"
+#setEnv CI_ENV "production"
 
-Options -Indexes
-# Disable server signature
-ServerSignature Off
-
-
-
- RewriteEngine On
+RewriteEngine On
 # The following rule tells Apache that if the requested filename
 # exists, simply serve it.
 RewriteCond %{REQUEST_FILENAME} -s [OR]
@@ -24,3 +21,10 @@ RewriteRule ^.*$ - [NC,L]
 RewriteCond %{REQUEST_URI}::$1 ^(/.+)(.+)::\2$
 RewriteRule ^(.*) - [E=BASE:%1]
 RewriteRule ^(.*)$ %{ENV:BASE}index.php [NC,L]
+
+
+#########Server Security ######################
+Options -Indexes
+
+# Disable server signature
+ServerSignature Off
