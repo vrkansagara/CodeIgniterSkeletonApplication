@@ -32,3 +32,8 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 public/DATA/
 .swo
 *.lock
+
+
+#Application Specific Settings
+#-----------------------------
+application/config/testing/*
