@@ -16,12 +16,12 @@
       "email": "vrkansagara@gmail.com"
     }
   ],
-   "minimum-stability": "stable",
   "require": {
     "php": ">=5.5",
     "codeigniter/framework": "^3.0",
     "mikey179/vfsStream": "^1.5",
     "cartalyst/sentry": "2.1.*",
-    "fzaninotto/faker": "^1.5"
+    "fzaninotto/faker": "^1.5",
+    "doctrine/orm": "^2.5"
   }
 }
